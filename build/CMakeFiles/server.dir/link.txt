@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/server.dir/server.c.o CMakeFiles/server.dir/simulation.c.o CMakeFiles/server.dir/socket.c.o -o server 

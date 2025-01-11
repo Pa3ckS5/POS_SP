@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/client.dir/client.c.o CMakeFiles/client.dir/socket.c.o CMakeFiles/client.dir/client_io.c.o -o client 
