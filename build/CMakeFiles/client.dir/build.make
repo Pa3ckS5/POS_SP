@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sustek2/sp0
+CMAKE_SOURCE_DIR = /home/sustek2/sp_backup/sp15
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sustek2/sp0/build
+CMAKE_BINARY_DIR = /home/sustek2/sp_backup/sp15/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/client.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/client.dir/progress.make
 include CMakeFiles/client.dir/flags.make
 
 CMakeFiles/client.dir/client.c.o: CMakeFiles/client.dir/flags.make
-CMakeFiles/client.dir/client.c.o: /home/sustek2/sp0/client.c
+CMakeFiles/client.dir/client.c.o: /home/sustek2/sp_backup/sp15/client.c
 CMakeFiles/client.dir/client.c.o: CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sustek2/sp0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/client.dir/client.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/client.dir/client.c.o -MF CMakeFiles/client.dir/client.c.o.d -o CMakeFiles/client.dir/client.c.o -c /home/sustek2/sp0/client.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sustek2/sp_backup/sp15/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/client.dir/client.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/client.dir/client.c.o -MF CMakeFiles/client.dir/client.c.o.d -o CMakeFiles/client.dir/client.c.o -c /home/sustek2/sp_backup/sp15/client.c
 
 CMakeFiles/client.dir/client.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/client.dir/client.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sustek2/sp0/client.c > CMakeFiles/client.dir/client.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sustek2/sp_backup/sp15/client.c > CMakeFiles/client.dir/client.c.i
 
 CMakeFiles/client.dir/client.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/client.dir/client.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sustek2/sp0/client.c -o CMakeFiles/client.dir/client.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sustek2/sp_backup/sp15/client.c -o CMakeFiles/client.dir/client.c.s
 
 CMakeFiles/client.dir/socket.c.o: CMakeFiles/client.dir/flags.make
-CMakeFiles/client.dir/socket.c.o: /home/sustek2/sp0/socket.c
+CMakeFiles/client.dir/socket.c.o: /home/sustek2/sp_backup/sp15/socket.c
 CMakeFiles/client.dir/socket.c.o: CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sustek2/sp0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/client.dir/socket.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/client.dir/socket.c.o -MF CMakeFiles/client.dir/socket.c.o.d -o CMakeFiles/client.dir/socket.c.o -c /home/sustek2/sp0/socket.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sustek2/sp_backup/sp15/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/client.dir/socket.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/client.dir/socket.c.o -MF CMakeFiles/client.dir/socket.c.o.d -o CMakeFiles/client.dir/socket.c.o -c /home/sustek2/sp_backup/sp15/socket.c
 
 CMakeFiles/client.dir/socket.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/client.dir/socket.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sustek2/sp0/socket.c > CMakeFiles/client.dir/socket.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sustek2/sp_backup/sp15/socket.c > CMakeFiles/client.dir/socket.c.i
 
 CMakeFiles/client.dir/socket.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/client.dir/socket.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sustek2/sp0/socket.c -o CMakeFiles/client.dir/socket.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sustek2/sp_backup/sp15/socket.c -o CMakeFiles/client.dir/socket.c.s
 
 CMakeFiles/client.dir/client_io.c.o: CMakeFiles/client.dir/flags.make
-CMakeFiles/client.dir/client_io.c.o: /home/sustek2/sp0/client_io.c
+CMakeFiles/client.dir/client_io.c.o: /home/sustek2/sp_backup/sp15/client_io.c
 CMakeFiles/client.dir/client_io.c.o: CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sustek2/sp0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/client.dir/client_io.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/client.dir/client_io.c.o -MF CMakeFiles/client.dir/client_io.c.o.d -o CMakeFiles/client.dir/client_io.c.o -c /home/sustek2/sp0/client_io.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sustek2/sp_backup/sp15/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/client.dir/client_io.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/client.dir/client_io.c.o -MF CMakeFiles/client.dir/client_io.c.o.d -o CMakeFiles/client.dir/client_io.c.o -c /home/sustek2/sp_backup/sp15/client_io.c
 
 CMakeFiles/client.dir/client_io.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/client.dir/client_io.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sustek2/sp0/client_io.c > CMakeFiles/client.dir/client_io.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sustek2/sp_backup/sp15/client_io.c > CMakeFiles/client.dir/client_io.c.i
 
 CMakeFiles/client.dir/client_io.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/client.dir/client_io.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sustek2/sp0/client_io.c -o CMakeFiles/client.dir/client_io.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sustek2/sp_backup/sp15/client_io.c -o CMakeFiles/client.dir/client_io.c.s
 
 # Object files for target client
 client_OBJECTS = \
@@ -125,7 +125,7 @@ client: CMakeFiles/client.dir/socket.c.o
 client: CMakeFiles/client.dir/client_io.c.o
 client: CMakeFiles/client.dir/build.make
 client: CMakeFiles/client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sustek2/sp0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sustek2/sp_backup/sp15/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +137,6 @@ CMakeFiles/client.dir/clean:
 .PHONY : CMakeFiles/client.dir/clean
 
 CMakeFiles/client.dir/depend:
-	cd /home/sustek2/sp0/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sustek2/sp0 /home/sustek2/sp0 /home/sustek2/sp0/build /home/sustek2/sp0/build /home/sustek2/sp0/build/CMakeFiles/client.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sustek2/sp_backup/sp15/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sustek2/sp_backup/sp15 /home/sustek2/sp_backup/sp15 /home/sustek2/sp_backup/sp15/build /home/sustek2/sp_backup/sp15/build /home/sustek2/sp_backup/sp15/build/CMakeFiles/client.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/client.dir/depend
 

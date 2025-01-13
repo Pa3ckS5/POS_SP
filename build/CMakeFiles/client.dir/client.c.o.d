@@ -1,8 +1,9 @@
-CMakeFiles/client.dir/client.c.o: /home/sustek2/sp0/client.c \
- /usr/include/stdc-predef.h /home/sustek2/sp0/socket.h \
- /home/sustek2/sp0/shared.h \
+CMakeFiles/client.dir/client.c.o: /home/sustek2/sp_backup/sp15/client.c \
+ /usr/include/stdc-predef.h /home/sustek2/sp_backup/sp15/client.h \
+ /home/sustek2/sp_backup/sp15/socket.h \
+ /home/sustek2/sp_backup/sp15/shared.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdbool.h \
- /home/sustek2/sp0/client_io.h /usr/include/stdio.h \
+ /home/sustek2/sp_backup/sp15/client_io.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -123,4 +124,10 @@ CMakeFiles/client.dir/client.c.o: /home/sustek2/sp0/client.c \
  /usr/include/x86_64-linux-gnu/bits/termios-c_lflag.h \
  /usr/include/x86_64-linux-gnu/bits/termios-tcflow.h \
  /usr/include/x86_64-linux-gnu/bits/termios-misc.h \
- /usr/include/x86_64-linux-gnu/sys/ttydefaults.h
+ /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
+ /usr/include/netinet/in.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h

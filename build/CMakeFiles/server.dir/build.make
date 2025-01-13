@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sustek2/sp0
+CMAKE_SOURCE_DIR = /home/sustek2/sp_backup/sp15
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sustek2/sp0/build
+CMAKE_BINARY_DIR = /home/sustek2/sp_backup/sp15/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/server.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/server.dir/progress.make
 include CMakeFiles/server.dir/flags.make
 
 CMakeFiles/server.dir/server.c.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/server.c.o: /home/sustek2/sp0/server.c
+CMakeFiles/server.dir/server.c.o: /home/sustek2/sp_backup/sp15/server.c
 CMakeFiles/server.dir/server.c.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sustek2/sp0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/server.dir/server.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/server.dir/server.c.o -MF CMakeFiles/server.dir/server.c.o.d -o CMakeFiles/server.dir/server.c.o -c /home/sustek2/sp0/server.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sustek2/sp_backup/sp15/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/server.dir/server.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/server.dir/server.c.o -MF CMakeFiles/server.dir/server.c.o.d -o CMakeFiles/server.dir/server.c.o -c /home/sustek2/sp_backup/sp15/server.c
 
 CMakeFiles/server.dir/server.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/server.dir/server.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sustek2/sp0/server.c > CMakeFiles/server.dir/server.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sustek2/sp_backup/sp15/server.c > CMakeFiles/server.dir/server.c.i
 
 CMakeFiles/server.dir/server.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/server.dir/server.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sustek2/sp0/server.c -o CMakeFiles/server.dir/server.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sustek2/sp_backup/sp15/server.c -o CMakeFiles/server.dir/server.c.s
 
 CMakeFiles/server.dir/simulation.c.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/simulation.c.o: /home/sustek2/sp0/simulation.c
+CMakeFiles/server.dir/simulation.c.o: /home/sustek2/sp_backup/sp15/simulation.c
 CMakeFiles/server.dir/simulation.c.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sustek2/sp0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/server.dir/simulation.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/server.dir/simulation.c.o -MF CMakeFiles/server.dir/simulation.c.o.d -o CMakeFiles/server.dir/simulation.c.o -c /home/sustek2/sp0/simulation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sustek2/sp_backup/sp15/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/server.dir/simulation.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/server.dir/simulation.c.o -MF CMakeFiles/server.dir/simulation.c.o.d -o CMakeFiles/server.dir/simulation.c.o -c /home/sustek2/sp_backup/sp15/simulation.c
 
 CMakeFiles/server.dir/simulation.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/server.dir/simulation.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sustek2/sp0/simulation.c > CMakeFiles/server.dir/simulation.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sustek2/sp_backup/sp15/simulation.c > CMakeFiles/server.dir/simulation.c.i
 
 CMakeFiles/server.dir/simulation.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/server.dir/simulation.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sustek2/sp0/simulation.c -o CMakeFiles/server.dir/simulation.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sustek2/sp_backup/sp15/simulation.c -o CMakeFiles/server.dir/simulation.c.s
 
 CMakeFiles/server.dir/socket.c.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/socket.c.o: /home/sustek2/sp0/socket.c
+CMakeFiles/server.dir/socket.c.o: /home/sustek2/sp_backup/sp15/socket.c
 CMakeFiles/server.dir/socket.c.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sustek2/sp0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/server.dir/socket.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/server.dir/socket.c.o -MF CMakeFiles/server.dir/socket.c.o.d -o CMakeFiles/server.dir/socket.c.o -c /home/sustek2/sp0/socket.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sustek2/sp_backup/sp15/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/server.dir/socket.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/server.dir/socket.c.o -MF CMakeFiles/server.dir/socket.c.o.d -o CMakeFiles/server.dir/socket.c.o -c /home/sustek2/sp_backup/sp15/socket.c
 
 CMakeFiles/server.dir/socket.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/server.dir/socket.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sustek2/sp0/socket.c > CMakeFiles/server.dir/socket.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sustek2/sp_backup/sp15/socket.c > CMakeFiles/server.dir/socket.c.i
 
 CMakeFiles/server.dir/socket.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/server.dir/socket.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sustek2/sp0/socket.c -o CMakeFiles/server.dir/socket.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sustek2/sp_backup/sp15/socket.c -o CMakeFiles/server.dir/socket.c.s
 
 # Object files for target server
 server_OBJECTS = \
@@ -125,7 +125,7 @@ server: CMakeFiles/server.dir/simulation.c.o
 server: CMakeFiles/server.dir/socket.c.o
 server: CMakeFiles/server.dir/build.make
 server: CMakeFiles/server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sustek2/sp0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sustek2/sp_backup/sp15/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +137,6 @@ CMakeFiles/server.dir/clean:
 .PHONY : CMakeFiles/server.dir/clean
 
 CMakeFiles/server.dir/depend:
-	cd /home/sustek2/sp0/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sustek2/sp0 /home/sustek2/sp0 /home/sustek2/sp0/build /home/sustek2/sp0/build /home/sustek2/sp0/build/CMakeFiles/server.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sustek2/sp_backup/sp15/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sustek2/sp_backup/sp15 /home/sustek2/sp_backup/sp15 /home/sustek2/sp_backup/sp15/build /home/sustek2/sp_backup/sp15/build /home/sustek2/sp_backup/sp15/build/CMakeFiles/server.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/server.dir/depend
 

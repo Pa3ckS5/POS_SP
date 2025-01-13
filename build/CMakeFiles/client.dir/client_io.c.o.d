@@ -1,6 +1,7 @@
-CMakeFiles/client.dir/client_io.c.o: /home/sustek2/sp0/client_io.c \
- /usr/include/stdc-predef.h /home/sustek2/sp0/client_io.h \
- /home/sustek2/sp0/shared.h \
+CMakeFiles/client.dir/client_io.c.o: \
+ /home/sustek2/sp_backup/sp15/client_io.c /usr/include/stdc-predef.h \
+ /home/sustek2/sp_backup/sp15/client_io.h \
+ /home/sustek2/sp_backup/sp15/shared.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdbool.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

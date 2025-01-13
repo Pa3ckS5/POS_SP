@@ -4,6 +4,13 @@
 #include <stdbool.h>
 
 #define BUFFER_SIZE 30000
+#define MAX_FILENAME_LENGTH 31 //30 znakov + ukoncenie
+
+typedef enum {
+    VISUAL, // normalny mod
+    SUCCESS, // statisticky mod
+    AVERAGE // statisticky mod
+} SimulationMode;
 
 typedef struct {
     int world_width;
@@ -11,9 +18,9 @@ typedef struct {
     double probabilities[4];
     int total_replications;
     int max_steps;
-    bool success_rate_mode;
+    bool fast_mode;
     bool has_obstacles;
-    char filename[31];
+    char filename[MAX_FILENAME_LENGTH];
 } SimulationConfig;
 
 typedef enum {

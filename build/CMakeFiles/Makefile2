@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sustek2/sp0
+CMAKE_SOURCE_DIR = /home/sustek2/sp_backup/sp15
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sustek2/sp0/build
+CMAKE_BINARY_DIR = /home/sustek2/sp_backup/sp15/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/clean_all.dir/clean
 CMakeFiles/server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sustek2/sp0/build/CMakeFiles --progress-num=5,6,7,8 "Built target server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sustek2/sp_backup/sp15/build/CMakeFiles --progress-num=5,6,7,8 "Built target server"
 .PHONY : CMakeFiles/server.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sustek2/sp0/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sustek2/sp_backup/sp15/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sustek2/sp0/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sustek2/sp_backup/sp15/build/CMakeFiles 0
 .PHONY : CMakeFiles/server.dir/rule
 
 # Convenience name for target.
@@ -111,14 +111,14 @@ CMakeFiles/server.dir/clean:
 CMakeFiles/client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sustek2/sp0/build/CMakeFiles --progress-num=1,2,3,4 "Built target client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sustek2/sp_backup/sp15/build/CMakeFiles --progress-num=1,2,3,4 "Built target client"
 .PHONY : CMakeFiles/client.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sustek2/sp0/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sustek2/sp_backup/sp15/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/client.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sustek2/sp0/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sustek2/sp_backup/sp15/build/CMakeFiles 0
 .PHONY : CMakeFiles/client.dir/rule
 
 # Convenience name for target.
@@ -138,14 +138,14 @@ CMakeFiles/build_all.dir/all: CMakeFiles/server.dir/all
 CMakeFiles/build_all.dir/all: CMakeFiles/client.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_all.dir/build.make CMakeFiles/build_all.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_all.dir/build.make CMakeFiles/build_all.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sustek2/sp0/build/CMakeFiles --progress-num= "Built target build_all"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sustek2/sp_backup/sp15/build/CMakeFiles --progress-num= "Built target build_all"
 .PHONY : CMakeFiles/build_all.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/build_all.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sustek2/sp0/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sustek2/sp_backup/sp15/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/build_all.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sustek2/sp0/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sustek2/sp_backup/sp15/build/CMakeFiles 0
 .PHONY : CMakeFiles/build_all.dir/rule
 
 # Convenience name for target.
@@ -164,14 +164,14 @@ CMakeFiles/build_all.dir/clean:
 CMakeFiles/clean_all.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_all.dir/build.make CMakeFiles/clean_all.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_all.dir/build.make CMakeFiles/clean_all.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sustek2/sp0/build/CMakeFiles --progress-num= "Built target clean_all"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sustek2/sp_backup/sp15/build/CMakeFiles --progress-num= "Built target clean_all"
 .PHONY : CMakeFiles/clean_all.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clean_all.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sustek2/sp0/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sustek2/sp_backup/sp15/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/clean_all.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sustek2/sp0/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sustek2/sp_backup/sp15/build/CMakeFiles 0
 .PHONY : CMakeFiles/clean_all.dir/rule
 
 # Convenience name for target.

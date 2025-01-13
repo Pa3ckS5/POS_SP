@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sustek2/sp0
+CMAKE_SOURCE_DIR = /home/sustek2/sp_backup/sp15
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sustek2/sp0/build
+CMAKE_BINARY_DIR = /home/sustek2/sp_backup/sp15/build
 
 # Utility rule file for build_all.
 
@@ -82,6 +82,6 @@ CMakeFiles/build_all.dir/clean:
 .PHONY : CMakeFiles/build_all.dir/clean
 
 CMakeFiles/build_all.dir/depend:
-	cd /home/sustek2/sp0/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sustek2/sp0 /home/sustek2/sp0 /home/sustek2/sp0/build /home/sustek2/sp0/build /home/sustek2/sp0/build/CMakeFiles/build_all.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sustek2/sp_backup/sp15/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sustek2/sp_backup/sp15 /home/sustek2/sp_backup/sp15 /home/sustek2/sp_backup/sp15/build /home/sustek2/sp_backup/sp15/build /home/sustek2/sp_backup/sp15/build/CMakeFiles/build_all.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/build_all.dir/depend
 

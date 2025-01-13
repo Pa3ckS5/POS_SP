@@ -1,6 +1,6 @@
-/home/sustek2/sp0/build/CMakeFiles/server.dir
-/home/sustek2/sp0/build/CMakeFiles/client.dir
-/home/sustek2/sp0/build/CMakeFiles/build_all.dir
-/home/sustek2/sp0/build/CMakeFiles/clean_all.dir
-/home/sustek2/sp0/build/CMakeFiles/edit_cache.dir
-/home/sustek2/sp0/build/CMakeFiles/rebuild_cache.dir
+/home/sustek2/sp_backup/sp15/build/CMakeFiles/server.dir
+/home/sustek2/sp_backup/sp15/build/CMakeFiles/client.dir
+/home/sustek2/sp_backup/sp15/build/CMakeFiles/build_all.dir
+/home/sustek2/sp_backup/sp15/build/CMakeFiles/clean_all.dir
+/home/sustek2/sp_backup/sp15/build/CMakeFiles/edit_cache.dir
+/home/sustek2/sp_backup/sp15/build/CMakeFiles/rebuild_cache.dir

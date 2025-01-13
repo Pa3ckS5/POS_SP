@@ -1,6 +1,8 @@
-CMakeFiles/server.dir/server.c.o: /home/sustek2/sp0/server.c \
- /usr/include/stdc-predef.h /home/sustek2/sp0/socket.h \
- /home/sustek2/sp0/simulation.h /home/sustek2/sp0/shared.h \
+CMakeFiles/server.dir/server.c.o: /home/sustek2/sp_backup/sp15/server.c \
+ /usr/include/stdc-predef.h /home/sustek2/sp_backup/sp15/server.h \
+ /home/sustek2/sp_backup/sp15/socket.h \
+ /home/sustek2/sp_backup/sp15/simulation.h \
+ /home/sustek2/sp_backup/sp15/shared.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdbool.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
